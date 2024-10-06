@@ -1,46 +1,41 @@
 {
   "basics": {
-    "name": "John Doe",
-    "label": "Junior Full Stack Developer",
+    "name": "Henrique Melo",
+    "label": "Mid-Level Software Engineer",
     "image": "/me_avatar.jpg",
-    "email": "john.doe@example.com",
-    "phone": "+1 555-555-5555",
+    "email": "hemelo@pm.me",
+    "phone": "+55 31 986869137",
     "url": "https://johndoe.dev",
-    "summary": "Junior Full Stack Developer with a passion for building web applications. Currently seeking opportunities to further develop my skills in a professional setting.",
-    "theme": "default",
+    "summary": "Proficient Software Engineer with a comprehensive background in developing high-performance APIs and scalable microservices. Expertise in Spring Boot, performance optimization, and continuous integration practices. Successfully led projects collaborating with teams to deliver innovative software solutions. Committed to continuous learning and applying best practices in software engineering.",
+    "theme": "blue",
     "location": {
       "address": "",
-      "postalCode": "10001",
-      "city": "Auckland",
-      "countryCode": "NZ",
-      "region": "New Zealand"
+      "postalCode": "",
+      "city": "Belo Horizonte",
+      "countryCode": "BR",
+      "region": "Brazil"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "john-doe",
-        "url": "https://linkedin.com/in/john-doe"
-      },
-      {
-        "network": "X",
-        "username": "john-doe",
-        "url": "https://x.com/john-doe"
+        "username": "henriquefcmelo",
+        "url": "https://linkedin.com/in/henriquefcmelo"
       },
       {
         "network": "GitHub",
-        "username": "johndoe",
-        "url": "https://github.com/johndoe"
+        "username": "hemelo",
+        "url": "https://github.com/hemelo"
       }
     ]
   },
   "work": [
     {
-      "name": "Tech Startup",
-      "position": "Junior Web Developer",
+      "name": "Alterosa MK",
+      "position": "Mid-Level Software Developer",
       "location_type": "On site",
-      "location": "Auckland, New Zealand",
-      "url": "https://techstartup.com",
-      "startDate": "2024-01-01",
+      "location": "Contagem, Brazil",
+      "url": null,
+      "startDate": "2022-06-01",
       "endDate": null,
       "summary": "Developing and maintaining web applications using JavaScript, HTML, and CSS. Collaborating with the team to implement new features and fix bugs.",
       "highlights": [
@@ -55,60 +50,34 @@
         "Developing and maintaining web applications using JavaScript, HTML, and CSS. Collaborating with the team to implement new features and fix bugs."
       ],
       "skills": [
-        "React",
-        "Tailwind",
-        "GitHub"
-      ]
-    },
-    {
-      "name": "Innovative Solutions",
-      "position": "Junior Software Developer",
-      "location_type": "Hybrid",
-      "location": "Wellington, New Zealand",
-      "url": "https://innovativesolutions.com",
-      "startDate": "2022-06-01",
-      "endDate": "2023-06-01",
-      "summary": "Assisting in the development and maintenance of software applications using Python and Django. Collaborating with cross-functional teams to ensure quality and timely delivery of software solutions.",
-      "highlights": [
-        "Contributed to a major project that streamlined internal workflows, improving efficiency by 30%"
-      ],
-      "responsibilities": [
-        "Developed and maintained backend services using Python and Django.",
-        "Worked closely with front-end developers to integrate user-facing elements with server-side logic.",
-        "Participated in daily stand-ups and bi-weekly sprint planning meetings to ensure alignment with project goals."
-      ],
-      "achievements": [
-        "Successfully implemented a feature that enhanced user authentication, improving security measures."
-      ],
-      "skills": [
+        "Java EE",
+        "Spring (MVC, Boot, Cloud, Batch, Security)",
+        "Primefaces",
+        "JPA",
+        "QueryDSL",
+        "Hibernate",
+        "Webservices (SOAP e REST)",
+        "Java FX",
+        "JUnit 5",
+        "Mockito",
+        "Postman",
+        "Docker",
+        "Jenkins",
+        "MySQL",
+        "Angular",
+        "Jest",
+        "Selenium",
+        "C++",
         "Python",
-        "Django",
-        "SQL",
-        "Git"
-      ]
-    },
-    {
-      "name": "Web Agency",
-      "position": "Intern Web Developer",
-      "location_type": "Remote",
-      "location": "Sydney, Australia",
-      "startDate": "2022-06-01",
-      "endDate": "2022-12-01",
-      "summary": "Assisted in developing client websites and applications. Gained hands-on experience with front-end and back-end technologies.",
-      "highlights": [
-        "Completed several client projects successfully"
-      ],
-      "skills": [
-        "HTML",
-        "CSS"
+        "PHP"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Local Coding Club",
+      "organization": "Federal University of Minas Gerais",
       "position": "Volunteer",
-      "url": "https://codingclub.com/",
+      "url": "https://ufmg.br/international-visitors",
       "startDate": "2021-01-01",
       "endDate": "2022-01-01",
       "summary": "Helped organize coding workshops and mentored new members.",
@@ -119,187 +88,264 @@
   ],
   "education": [
     {
-      "institution": "State University",
-      "url": "https://stateuniversity.edu",
-      "area": "Computer Science",
-      "studyType": "Bachelor",
-      "startDate": "2018-09-01",
-      "endDate": "2022-05-01",
-      "score": "3.8",
-      "courses": [
-        "CS101 - Introduction to Computer Science",
-        "CS102 - Data Structures"
-      ]
-    },
-    {
-      "institution": "Tech Institute",
-      "url": "https://techinstitute.edu",
+      "institution": "FIAP",
+      "url": "https://www.fiap.com.br/institucional/",
       "area": "Software Engineering",
-      "studyType": "Master",
-      "startDate": "2020-09-01",
-      "endDate": "2022-12-01",
-      "score": "3.9",
+      "studyType": "Bachelor",
+      "startDate": "2023-01-01",
+      "endDate": null,
+      "score": null,
       "courses": [
-        "SE201 - Advanced Software Development",
-        "SE202 - Software Architecture and Design"
+        
       ]
     },
     {
-      "institution": "City College",
-      "url": "https://citycollege.edu",
-      "area": "Information Technology",
+      "institution": "UFMG",
+      "url": "https://ufmg.br/international-visitors",
+      "area": "Systems Development",
       "studyType": "Associate Degree",
-      "startDate": "2017-01-01",
-      "endDate": "2019-12-01",
-      "score": "3.7",
+      "startDate": "2019-01-01",
+      "endDate": "2021-12-01",
+      "score": null,
       "courses": [
-        "IT101 - Networking Fundamentals",
-        "IT102 - Database Management Systems"
+        
       ]
     }
   ],
   "certificates": [
     {
-      "name": "Full Stack Web Development",
-      "date": "2023-05-01",
-      "issuer": "Online University",
-      "url": "https://onlineuniversity.com/certificates/fullstack"
+      "name": "Data Security - Secure Development",
+      "date": "2024-03-01",
+      "issuer": "Data Security",
+      "url": "https://cursos.datasecurity.com.br/desenvolvimento-seguro/"
     }
   ],
   "skills": [
     {
-      "name": "Figma",
+      "name": "Java",
+      "icon": "ri:java-line",
       "level": "Expert",
       "keywords": [
-        "Design",
-        "UI"
+        "Java 7",
+        "Java 8",
+        "Java 11",
+        "Java 17",
+        "Java 21",
+        "Java EE",
+        "GraalVM",
+        "Multithreading",
+        "Concurrency",
+        "Testing (JUnit/Mockito)"
       ]
     },
     {
-      "name": "Gitlab",
-      "level": "Intermediate",
+      "name": "C++",
+      "icon": "mdi:language-cpp",
+      "level": "Expert",
       "keywords": [
-        "Version Control",
-        "Collaboration",
-        "Source Code"
+        "Embedded Systems",
+        "Memory Management",
+        "Concurrency"
+      ]
+    },
+    {
+      "name": "Python",
+      "icon": "simple-icons:python",
+      "level": "Expert",
+      "keywords": [
+        "Data Science",
+        "Machine Learning",
+        "Web Development",
+        "Scripting"
+      ]
+    },
+    {
+      "name": "PHP",
+      "icon": "mdi:language-php",
+      "level": "Expert",
+      "keywords": [
+        "RESTful APIs",
+        "CMS Development",
+        "OOP"
+      ]
+    },
+    {
+      "name": "Spring",
+      "icon": "simple-icons:spring",
+      "level": "Expert",
+      "keywords": [
+        "Java Framework",
+        "Microservices",
+        "Event-driven Architecture",
+        "Spring Framework 6",
+        "Spring Boot",
+        "Spring MVC",
+        "Spring Security",
+        "Spring Authorization Server",
+        "Spring AMQP",
+        "Spring LDAP",
+        "Spring Cache",
+        "Spring Data",
+        "Spring Cloud",
+        "Spring Cloud Data Flow",
+        "Spring Cloud Stream",
+        "Spring Batch"
+      ]
+    },
+    {
+      "name": "Laravel",
+      "icon": "simple-icons:laravel",
+      "level": "Expert",
+      "keywords": [
+        "PHP Framework",
+        "MVC Architecture",
+        "Eloquent ORM",
+        "API Development"
       ]
     },
     {
       "name": "HTML",
-      "level": "Intermediate",
+      "icon": "mdi:language-html5",
+      "level": "Expert",
       "keywords": [
         "Web Development",
-        "Frontend"
+        "SEO Best Practices",
+        "Semantic HTML",
+        "Accessibility",
+        "Forms"
       ]
     },
     {
       "name": "CSS",
+      "icon": "mdi:language-css3",
       "level": "Intermediate",
       "keywords": [
-        "Web Development",
-        "Frontend",
-        "Responsive Design"
+        "Responsive Design",
+        "Accessibility",
+        "Flexbox",
+        "Grid Layout",
+        "Preprocessors (Sass/LESS)"
       ]
     },
     {
       "name": "JavaScript",
-      "level": "Intermediate",
+      "icon": "mdi:language-javascript",
+      "level": "Expert",
       "keywords": [
-        "Web Development",
-        "Frontend",
-        "Backend",
-        "Fullstack"
+        "Asynchronous Programming",
+        "ES6+ Features",
+        "DOM Manipulation",
+        "Testing (Jest)"
       ]
     },
     {
       "name": "Tailwind",
-      "level": "Intermediate",
+      "icon": "mdi:tailwind",
+      "level": "Expert",
       "keywords": [
-        "Web Development",
-        "Frontend",
+        "Utility-First CSS",
+        "Responsive Design",
+        "Custom Themes",
+        "Component Libraries",
+        "Rapid Prototyping"
+      ]
+    },
+    {
+      "name": "Bootstrap",
+      "icon": "mdi:bootstrap",
+      "level": "Expert",
+      "keywords": [
         "CSS Framework",
-        "Responsive Design"
+        "Responsive Design",
+        "UI Components",
+        "Grid System",
+        "Custom Themes"
       ]
     },
     {
       "name": "TypeScript",
-      "level": "Intermediate",
+      "icon": "mdi:language-typescript",
+      "level": "Expert",
       "keywords": [
-        "Web Development",
-        "Frontend",
-        "Backend",
-        "JavaScript Superset"
+        "Static Typing",
+        "Type Safety",
+        "Advanced Types",
+        "Tooling (tslint)"
       ]
     },
     {
       "name": "Node",
-      "level": "Intermediate",
+      "icon": "ri:nodejs-line",
+      "level": "Expert",
       "keywords": [
-        "Web Development",
-        "Backend",
-        "JavaScript",
-        "Server"
+        "JavaScript Runtime",
+        "Express.js",
+        "API Development",
+        "Middleware",
+        "Event-Driven Architecture"
       ]
     },
     {
       "name": "MySQL",
+      "icon": "tabler:brand-mysql",
       "level": "Intermediate",
       "keywords": [
-        "Databases",
-        "SQL",
-        "Data Storage",
-        "Backend"
-      ]
-    },
-    {
-      "name": "Git",
-      "level": "Intermediate",
-      "keywords": [
-        "Version Control",
-        "Collaboration",
-        "Source Code"
-      ]
-    },
-    {
-      "name": "GitHub",
-      "level": "Intermediate",
-      "keywords": [
-        "Version Control",
-        "Collaboration",
-        "Source Code",
-        "Git"
+        "Relational Databases",
+        "SQL Queries",
+        "Data Modeling",
+        "Normalization",
+        "Performance Tuning"
       ]
     },
     {
       "name": "Next.js",
-      "level": "Beginner",
+      "icon": "tabler:brand-nextjs",
+      "level": "Intermediate",
       "keywords": [
-        "Web Development",
-        "Frontend",
         "React Framework",
-        "SSR",
-        "Static Generation"
+        "Server-Side Rendering",
+        "Static Site Generation",
+        "API Routes",
+        "Dynamic Routing"
       ]
     },
     {
-      "name": "React",
+      "name": "Angular",
+      "icon": "mdi:angular",
       "level": "Intermediate",
       "keywords": [
-        "Web Development",
-        "Frontend",
-        "JavaScript Library",
-        "UI"
+        "Single Page Applications",
+        "Dependency Injection",
+        "Reactive Programming",
+        "Component-Based Architecture",
+        "Routing"
+      ]
+    },
+    {
+      "name": "Git",
+      "icon": "mdi:git",
+      "level": "Intermediate",
+      "keywords": [
+        "Version Control",
+        "Collaboration",
+        "Branching Strategies",
+        "Merging",
+        "Pull Requests"
       ]
     }
   ],
   "languages": [
     {
       "language": "English",
-      "fluency": "Native speaker"
+      "fluency": "Intermediate"
+    },
+    {
+      "language": "Portuguese",
+      "fluency": "Intermediate"
     },
     {
       "language": "Spanish",
-      "fluency": "Intermediate"
+      "fluency": "Beginner"
     }
   ],
   "interests": [
@@ -307,6 +353,7 @@
       "name": "Technology",
       "keywords": [
         "AI",
+        "Data",
         "Blockchain"
       ]
     }
