@@ -4,7 +4,7 @@
     "label": "Mid-Level Software Engineer",
     "image": "/me_avatar.jpg",
     "email": "hemelo@pm.me",
-    "phone": "+55 31 986869137",
+    "phone": "+55 31 9313-0528",
     "url": "https://johndoe.dev",
     "summary": "Proficient Software Engineer with a comprehensive background in developing high-performance APIs and scalable microservices. Expertise in Spring Boot, performance optimization, and continuous integration practices. Successfully led projects collaborating with teams to deliver innovative software solutions. Committed to continuous learning and applying best practices in software engineering.",
     "theme": "blue",
@@ -37,23 +37,28 @@
       "url": null,
       "startDate": "2022-06-01",
       "endDate": null,
-      "summary": "Developing and maintaining web applications using JavaScript, HTML, and CSS. Collaborating with the team to implement new features and fix bugs.",
+      "summary": "Developing and maintaining APIs and microservices using Java and Spring Boot. Collaborating with the team to implement new features, improving performance and fix bugs.",
       "highlights": [
         "Improved website performance by optimizing code"
       ],
       "responsibilities": [
-        "Collaborated with senior developers to design and implement web applications using modern JavaScript frameworks.",
-        "Assisted in debugging and optimizing front-end code to ensure smooth user experiences.",
-        "Participated in code reviews and contributed to improving coding standards within the team."
+        "Design, implement, and test RESTful APIs using Java and Spring Boot.",
+        "Collaborate with cross-functional teams to define, design, and ship new features.",
+        "Participate in code reviews and contribute to improving coding standards within the team.",
+        "Reduce applications load time by optimizing database indexing and asynchronous operations.",
+        "Optimize APIs performance with better code practices and caching strategies.",
+        "Develop interactive front-end features using Angular 16 to improve user engagement."
       ],
       "achievements": [
-        "Developing and maintaining web applications using JavaScript, HTML, and CSS. Collaborating with the team to implement new features and fix bugs."
+        "Implemented a CI/CD pipeline that cut deployment times by 50%.",
+        "Reduced API response time by 30% by optimization",
+        "Mentored new developers in best practices and coding standards."
       ],
       "skills": [
+        "Spring (MVC, Boot, Cloud, Batch, Security, Data, Cache, Authorization Server)",
         "Java EE",
-        "Spring (MVC, Boot, Cloud, Batch, Security)",
+        "Java 8, 11, 17, 21",
         "Primefaces",
-        "JPA",
         "QueryDSL",
         "Hibernate",
         "Webservices (SOAP e REST)",
@@ -67,9 +72,7 @@
         "Angular",
         "Jest",
         "Selenium",
-        "C++",
-        "Python",
-        "PHP"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+        "C++"
       ]
     }
   ],
@@ -96,7 +99,6 @@
       "endDate": null,
       "score": null,
       "courses": [
-        
       ]
     },
     {
@@ -108,7 +110,6 @@
       "endDate": "2021-12-01",
       "score": null,
       "courses": [
-        
       ]
     }
   ],
@@ -139,37 +140,6 @@
       ]
     },
     {
-      "name": "C++",
-      "icon": "mdi:language-cpp",
-      "level": "Expert",
-      "keywords": [
-        "Embedded Systems",
-        "Memory Management",
-        "Concurrency"
-      ]
-    },
-    {
-      "name": "Python",
-      "icon": "simple-icons:python",
-      "level": "Expert",
-      "keywords": [
-        "Data Science",
-        "Machine Learning",
-        "Web Development",
-        "Scripting"
-      ]
-    },
-    {
-      "name": "PHP",
-      "icon": "mdi:language-php",
-      "level": "Expert",
-      "keywords": [
-        "RESTful APIs",
-        "CMS Development",
-        "OOP"
-      ]
-    },
-    {
       "name": "Spring",
       "icon": "simple-icons:spring",
       "level": "Expert",
@@ -193,14 +163,152 @@
       ]
     },
     {
-      "name": "Laravel",
-      "icon": "simple-icons:laravel",
+      "name": "TypeScript",
+      "icon": "mdi:language-typescript",
       "level": "Expert",
       "keywords": [
-        "PHP Framework",
-        "MVC Architecture",
-        "Eloquent ORM",
-        "API Development"
+        "Static Typing",
+        "Type Safety",
+        "Advanced Types",
+        "Tooling (tslint)"
+      ]
+    },
+    {
+      "name": "Node",
+      "icon": "ri:nodejs-line",
+      "level": "Expert",
+      "keywords": [
+        "JavaScript Runtime",
+        "Express.js",
+        "API Development",
+        "Middleware",
+        "Event-Driven Architecture"
+      ]
+    },
+    {
+      "name": "Python",
+      "icon": "simple-icons:python",
+      "level": "Expert",
+      "keywords": [
+        "Data Science",
+        "Machine Learning",
+        "Web Development",
+        "Scripting"
+      ]
+    },
+    {
+      "name": "AWS",
+      "icon": "mdi:aws",
+      "level": "Intermediate",
+      "keywords": [
+        "Cloud Computing",
+        "Serverless Architecture",
+        "S3",
+        "EC2",
+        "Lambda",
+        "API Gateway",
+        "RDS",
+        "DynamoDB",
+        "IAM",
+        "VPC",
+        "Route 53",
+        "CloudFront",
+        "Elastic Beanstalk",
+        "Elastic Container Service",
+        "Elastic Kubernetes Service",
+        "Elastic Load Balancing",
+        "Auto Scaling",
+        "CloudWatch",
+        "CloudFormation",
+        "CodePipeline",
+        "CodeBuild",
+        "CodeDeploy",
+        "SNS",
+        "SQS",
+        "SES",
+        "KMS",
+        "Secrets Manager",
+        "Systems Manager",
+        "Glacier",
+        "Athena",
+        "Redshift",
+        "Elasticsearch Service",
+        "Kinesis",
+        "Step Functions",
+        "AppSync",
+        "Cognito",
+        "API Gateway WebSockets"
+      ]
+    },
+    {
+      "name": "Oracle DB",
+      "icon": "simple-icons:oracle",
+      "level": "Intermediate",
+      "keywords": [
+        "Relational Databases",
+        "SQL Queries",
+        "Data Modeling",
+        "Normalization",
+        "Performance Tuning"
+      ]
+    },
+    {
+      "name": "C++",
+      "icon": "mdi:language-cpp",
+      "level": "Expert",
+      "keywords": [
+        "Embedded Systems",
+        "Memory Management",
+        "Concurrency"
+      ]
+    },
+
+    {
+      "name": "Angular",
+      "icon": "mdi:angular",
+      "level": "Intermediate",
+      "keywords": [
+        "Single Page Applications",
+        "Dependency Injection",
+        "Reactive Programming",
+        "Component-Based Architecture",
+        "Routing"
+      ]
+    },
+    {
+      "name": "Next.js",
+      "icon": "tabler:brand-nextjs",
+      "level": "Intermediate",
+      "keywords": [
+        "React Framework",
+        "Server-Side Rendering",
+        "Static Site Generation",
+        "API Routes",
+        "Dynamic Routing"
+      ]
+    },
+    {
+      "name": "Git",
+      "icon": "mdi:git",
+      "level": "Intermediate",
+      "keywords": [
+        "Version Control",
+        "Collaboration",
+        "Branching Strategies",
+        "Merging",
+        "Pull Requests"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "icon": "tabler:brand-mysql",
+      "level": "Intermediate",
+      "keywords": [
+        "Relational Databases",
+        "SQL Queries",
+        "Data Modeling",
+        "Normalization",
+        "Performance Tuning"
       ]
     },
     {
@@ -261,77 +369,6 @@
         "Grid System",
         "Custom Themes"
       ]
-    },
-    {
-      "name": "TypeScript",
-      "icon": "mdi:language-typescript",
-      "level": "Expert",
-      "keywords": [
-        "Static Typing",
-        "Type Safety",
-        "Advanced Types",
-        "Tooling (tslint)"
-      ]
-    },
-    {
-      "name": "Node",
-      "icon": "ri:nodejs-line",
-      "level": "Expert",
-      "keywords": [
-        "JavaScript Runtime",
-        "Express.js",
-        "API Development",
-        "Middleware",
-        "Event-Driven Architecture"
-      ]
-    },
-    {
-      "name": "MySQL",
-      "icon": "tabler:brand-mysql",
-      "level": "Intermediate",
-      "keywords": [
-        "Relational Databases",
-        "SQL Queries",
-        "Data Modeling",
-        "Normalization",
-        "Performance Tuning"
-      ]
-    },
-    {
-      "name": "Next.js",
-      "icon": "tabler:brand-nextjs",
-      "level": "Intermediate",
-      "keywords": [
-        "React Framework",
-        "Server-Side Rendering",
-        "Static Site Generation",
-        "API Routes",
-        "Dynamic Routing"
-      ]
-    },
-    {
-      "name": "Angular",
-      "icon": "mdi:angular",
-      "level": "Intermediate",
-      "keywords": [
-        "Single Page Applications",
-        "Dependency Injection",
-        "Reactive Programming",
-        "Component-Based Architecture",
-        "Routing"
-      ]
-    },
-    {
-      "name": "Git",
-      "icon": "mdi:git",
-      "level": "Intermediate",
-      "keywords": [
-        "Version Control",
-        "Collaboration",
-        "Branching Strategies",
-        "Merging",
-        "Pull Requests"
-      ]
     }
   ],
   "languages": [
@@ -366,46 +403,15 @@
   ],
   "projects": [
     {
-      "name": "Personal Portfolio",
+      "name": "Eco System",
       "isActive": false,
-      "description": "A personal portfolio website to showcase my projects and skills.",
+      "description": " A java CLI application to manage matches between communities and energy suppliers",
       "highlights": [
-        "Built with React and Tailwind CSS",
-        "Includes a blog and contact form"
+        "Built with Java, Oracle DB, JLine",
+        "Includes a interactive CLI interface"
       ],
-      "url": "https://johndoe.dev",
-      "github": "https://github.com"
-    },
-    {
-      "name": "Weather App",
-      "isActive": true,
-      "description": "A web application that provides weather information for any location.",
-      "highlights": [
-        "Built with JavaScript and OpenWeatherMap API",
-        "Responsive design"
-      ],
-      "url": "https://weatherapp.com"
-    },
-    {
-      "name": "Task Manager",
-      "isActive": true,
-      "description": "A simple task management app to keep track of daily tasks.",
-      "highlights": [
-        "Built with Node.js and MongoDB",
-        "User authentication and CRUD operations"
-      ],
-      "url": "https://taskmanager.com",
-      "github": "https://github.com"
-    },
-    {
-      "name": "E-commerce Site",
-      "isActive": false,
-      "description": "An online store built with Next.js and Stripe for payment processing.",
-      "highlights": [
-        "Product management and shopping cart functionality",
-        "Secure payment integration"
-      ],
-      "url": "https://ecommerce.com"
+      "url": "https://hemelo.github.io/fiap-global-solutions-2-2024/",
+      "github": "https://github.com/hemelo/fiap-global-solutions-2-2024"
     }
   ]
 }
