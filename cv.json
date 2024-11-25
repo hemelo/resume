@@ -47,7 +47,8 @@
         "Participate in code reviews and contribute to improving coding standards within the team.",
         "Reduce applications load time by optimizing database indexing and asynchronous operations.",
         "Optimize APIs performance with better code practices and caching strategies.",
-        "Develop interactive front-end features using Angular 16 to improve user engagement."
+        "Develop interactive front-end features using Angular 16 to improve user engagement.",
+        "Implementation of swift and practical solutions to meet demands"
       ],
       "achievements": [
         "Implemented a CI/CD pipeline that cut deployment times by 50%.",
