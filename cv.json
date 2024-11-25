@@ -404,7 +404,7 @@
   "projects": [
     {
       "name": "Eco System",
-      "isActive": false,
+      "isActive": true,
       "description": " A java CLI application to manage matches between communities and energy suppliers",
       "highlights": [
         "Built with Java, Oracle DB, JLine",
