@@ -94,7 +94,7 @@
       "institution": "FIAP",
       "url": "https://www.fiap.com.br/institucional/",
       "area": "Software Engineering",
-      "studyType": "Bachelor",
+      "studyType": "Bachelor Degree",
       "startDate": "2023-01-01",
       "endDate": null,
       "score": null,
@@ -115,7 +115,7 @@
   ],
   "certificates": [
     {
-      "name": "Data Security - Secure Development",
+      "name": "Secure Development",
       "date": "2024-03-01",
       "issuer": "Data Security",
       "url": "https://cursos.datasecurity.com.br/desenvolvimento-seguro/"
