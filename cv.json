@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Henrique Melo",
-    "label": "Mid-Level Software Engineer",
+    "label": "Mid-Level Software Developer",
     "image": "/me_avatar.jpg",
     "email": "hemelo@pm.me",
-    "phone": "+55 31 9313-0528",
+    "phone": "+553193130528",
     "url": "https://johndoe.dev",
-    "summary": "Proficient Software Engineer with a comprehensive background in developing high-performance APIs and scalable microservices. Expertise in Spring Boot, performance optimization, and continuous integration practices. Successfully led projects collaborating with teams to deliver innovative software solutions. Committed to continuous learning and applying best practices in software engineering.",
+    "summary": "Software Developer with 2 years of demonstrated experience in aligning software solutions with critical business processes. Highly experienced in all phases of software development life cycle. Extensive knowledge in major programming languages, specially Java, Python, PHP and SQL. Hands-on experience with Java environment and tools.",
     "theme": "blue",
     "location": {
       "address": "",
@@ -46,16 +46,17 @@
         "Collaborate with cross-functional teams to define, design, and ship new features.",
         "Participate in code reviews and contribute to improving coding standards within the team.",
         "Reduce applications load time by optimizing database indexing and asynchronous operations.",
-        "Optimize APIs performance with better code practices and caching strategies.",
-        "Develop interactive front-end features using Angular 16 to improve user engagement."
+        "Optimize APIs performance with better code practices and caching strategies."
       ],
       "achievements": [
+        "Wrote automated scripts to identify bad workflows",
+        "Transformed flows with low performance into high-performance flows, reducing the response time by 50%.",
+        "Developed 300 tests with JUnit and Mockito to guarantee the quality of the applications.",
         "Implemented a CI/CD pipeline that cut deployment times by 50%.",
-        "Reduced API response time by 30% by optimization",
-        "Mentored new developers in best practices and coding standards."
+        "Created 15 microservices to improve the scalability of the applications using best practices."
       ],
       "skills": [
-        "Spring (MVC, Boot, Cloud, Batch, Security, Data, Cache, Authorization Server)",
+        "Spring (MVC, Boot, Cloud, Batch, Security, Data, JDBC, Cache, Authorization Server)",
         "Java EE",
         "Java 8, 11, 17, 21",
         "Primefaces",
@@ -65,14 +66,12 @@
         "Java FX",
         "JUnit 5",
         "Mockito",
-        "Postman",
+        "C++",
+        "Python",
         "Docker",
         "Jenkins",
         "MySQL",
-        "Angular",
-        "Jest",
-        "Selenium",
-        "C++"
+        "Angular"
       ]
     }
   ],
@@ -163,17 +162,6 @@
       ]
     },
     {
-      "name": "TypeScript",
-      "icon": "mdi:language-typescript",
-      "level": "Expert",
-      "keywords": [
-        "Static Typing",
-        "Type Safety",
-        "Advanced Types",
-        "Tooling (tslint)"
-      ]
-    },
-    {
       "name": "Node",
       "icon": "ri:nodejs-line",
       "level": "Expert",
@@ -194,6 +182,29 @@
         "Machine Learning",
         "Web Development",
         "Scripting"
+      ]
+    },
+    {
+      "name": "Go",
+      "icon": "simple-icons:go",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Concurrency",
+        "Performance",
+        "Microservices"
+      ]
+    },
+    {
+      "name": "Apache Kafka",
+      "icon": "simple-icons:apachekafka",
+      "level": "Intermediate",
+      "keywords": [
+        "Distributed Systems",
+        "Event-Driven Architecture",
+        "Message Queues",
+        "Data Streaming",
+        "Fault Tolerance"
       ]
     },
     {
@@ -241,7 +252,7 @@
       ]
     },
     {
-      "name": "Oracle DB",
+      "name": "OracleSQL",
       "icon": "simple-icons:oracle",
       "level": "Intermediate",
       "keywords": [
@@ -262,7 +273,29 @@
         "Concurrency"
       ]
     },
-
+    {
+      "name": "PHP",
+      "icon": "simple-icons:php",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Laravel",
+        "Symfony",
+        "CodeIgniter",
+        "WordPress"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "icon": "mdi:language-typescript",
+      "level": "Expert",
+      "keywords": [
+        "Static Typing",
+        "Type Safety",
+        "Advanced Types",
+        "Tooling (tslint)"
+      ]
+    },
     {
       "name": "Angular",
       "icon": "mdi:angular",
@@ -273,18 +306,6 @@
         "Reactive Programming",
         "Component-Based Architecture",
         "Routing"
-      ]
-    },
-    {
-      "name": "Next.js",
-      "icon": "tabler:brand-nextjs",
-      "level": "Intermediate",
-      "keywords": [
-        "React Framework",
-        "Server-Side Rendering",
-        "Static Site Generation",
-        "API Routes",
-        "Dynamic Routing"
       ]
     },
     {
@@ -309,6 +330,34 @@
         "Data Modeling",
         "Normalization",
         "Performance Tuning"
+      ]
+    },
+    {
+      "name": "Docker",
+      "icon": "simple-icons:docker",
+      "level": "Intermediate",
+      "keywords": [
+        "Containerization",
+        "Docker Compose",
+        "Docker Swarm",
+        "Docker Hub",
+        "Docker Registry",
+        "Dockerfile",
+        "Docker CLI"
+      ]
+    },
+    {
+      "name": "Kubernetes",
+      "icon": "simple-icons:kubernetes",
+      "level": "Intermediate",
+      "keywords": [
+        "Container Orchestration",
+        "Microservices",
+        "Docker",
+        "Kubectl",
+        "Helm",
+        "Kubernetes Dashboard",
+        "Kubernetes API"
       ]
     },
     {

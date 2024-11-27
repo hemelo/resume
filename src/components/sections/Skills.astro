@@ -6,14 +6,14 @@ import { skills } from "@cv";
 
 ---
 
-<Section className={Astro.props.className} title="Skills">
-	<ul class="[&>li>svg]:text-skin-hue inline-flex flex-wrap gap-6 [&>li>svg]:size-5 [&>li]:text-sm">
+<Section className={Astro.props.className} title="Technical Skills">
+	<ul class="[&>li>svg]:text-skin-hue inline-flex flex-wrap gap-6 [&>li>svg]:size-5 [&>li]:text-sm print:gap-2 print:py-2">
 		{
 			skills.map(({ name, icon }) => {
 			
 				return (
 					<li class="border-skin-hue/20s bg-skin-button-accent/20s borders border-solids flex items-center gap-1 rounded-md px-2 py-0.5 text-xs text-skin-muted print:border-none print:bg-transparent print:p-0 print:text-zinc-800">
-						{icon && <Icon name={icon}  />} <span>{name}</span>
+						{icon && <Icon class:list="print:hidden" name={icon}  />} <span class="print:text-xs">{name}</span>
 					</li>
 				);
 			})
