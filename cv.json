@@ -6,7 +6,7 @@
     "email": "hemelo@pm.me",
     "phone": "+5531993130528",
     "url": "https://johndoe.dev",
-    "summary": "Software Developer with 2 years of demonstrated experience in aligning software solutions with critical business processes. Highly experienced in all phases of software development life cycle. Extensive knowledge in major programming languages, specially Java, Python, PHP and SQL. Hands-on experience with Java environment and tools.",
+    "summary": "Software Developer with 3 years of demonstrated experience in aligning software solutions with critical business processes. Highly experienced in all phases of software development life cycle. Extensive knowledge in major programming languages, specially Java, Python, PHP and SQL. Hands-on experience with Java environment and tools.",
     "theme": "blue",
     "location": {
       "address": "",
@@ -37,7 +37,7 @@
       "url": null,
       "startDate": "2022-06-01",
       "endDate": null,
-      "summary": "Developing and maintaining APIs and microservices using Java and Spring Boot. Collaborating with the team to implement new features, improving performance and fix bugs.",
+      "summary": "Developing and maintaining APIs and microservices using Java and Spring Boot. Participating in the full software development lifecycle, from concept and design to testing. Collaborating with cross-functional teams to define, design, and ship new features.",
       "highlights": [
         "Improved website performance by optimizing code"
       ],
