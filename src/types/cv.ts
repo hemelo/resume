@@ -3,14 +3,18 @@ export interface CV {
   work: Array<Work>;
   volunteer: Array<Volunteer>;
   education: Array<Education>;
-  awards: Array<Awards>;
-  certificates: Array<Certificates>;
-  publications: Array<Publications>;
-  skills: Array<Skills>;
+  awards?: Array<Award>;
+  certificates: Array<Certificate>;
+  publications?: Array<Publication>;
   languages: Array<Languages>;
-  interests: Array<Interests>;
-  references: Array<References>;
-  projects: Array<Projects>;
+  references: Array<Reference>;
+  projects: Array<Project>;
+}
+
+export interface Shared {
+  theme: string;
+  skills: Array<Skill>;
+  interests: Array<Interest>;
 }
 
 interface Basics {
@@ -22,7 +26,7 @@ interface Basics {
   url: string;
   summary: string;
   location: Location;
-  profiles: Array<Profiles>;
+  profiles: Array<Profile>;
 }
 
 interface Location {
@@ -33,7 +37,7 @@ interface Location {
   region: string;
 }
 
-interface Profiles {
+interface Profile {
   network: string;
   username: string;
   url: string;
@@ -42,11 +46,16 @@ interface Profiles {
 interface Work {
   name: string;
   position: string;
-  url: string;
+  location: string;
+  location_type: string;
+  url: string | null;
   startDate: DateStr;
   endDate: DateStr | null;
   summary: string;
-  highlights: Highlight;
+  highlights: Array<String>;
+  achievements: Array<String>;
+  responsibilities: Array<String>;
+  skills: Array<String>;
 }
 
 type DateStr = `${string}-${string}-${string}`;
@@ -58,31 +67,31 @@ interface Volunteer {
   startDate: DateStr;
   endDate: DateStr;
   summary: string;
-  highlights: Highlight;
+  highlights: Array<String>;
 }
 
-interface Skills {
+interface Skill {
   name: string;
   icon: string;
   level: string;
   keywords: Array<string>;
 }
 
-interface Awards {
+interface Award {
   title: string;
   date: string;
   awarder: string;
   summary: string;
 }
 
-interface Certificates {
+interface Certificate {
   name: string;
   date: DateStr;
   issuer: string;
   url: string;
 }
 
-interface Publications {
+interface Publication {
   name: string;
   publisher: string;
   releaseDate: DateStr;
@@ -97,8 +106,8 @@ interface Education {
   studyType: string;
   startDate: DateStr;
   endDate: DateStr;
-  score: string;
-  courses: Array<string>;
+  score?: string | null;
+  courses?: Array<string> | null;
 }
 
 interface Languages {
@@ -124,23 +133,21 @@ type Language =
   | "Bengali"
   | string;
 
-interface Projects {
+interface Project {
   name: string;
   isActive: boolean;
   description: string;
-  highlights: Highlight;
+  highlights: Array<String>;
   url: string;
   github?: string;
 }
 
-interface Interests {
+interface Interest {
   name: string;
   keywords: Array<string>;
 }
 
-interface References {
+interface Reference {
   name: string;
   reference: string;
 }
-
-type Highlight = Array<String>;

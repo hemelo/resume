@@ -7,7 +7,6 @@
     "phone": "+5531993130528",
     "url": "https://johndoe.dev",
     "summary": "Software Developer with 3 years of demonstrated experience in aligning software solutions with critical business processes. Highly experienced in all phases of software development life cycle. Extensive knowledge in major programming languages, specially Java, Python, PHP and SQL. Hands-on experience with Java environment and tools.",
-    "theme": "blue",
     "location": {
       "address": "",
       "postalCode": "",
@@ -39,7 +38,8 @@
       "endDate": null,
       "summary": "Developing and maintaining APIs and microservices using Java and Spring Boot. Participating in the full software development lifecycle, from concept and design to testing. Collaborating with cross-functional teams to define, design, and ship new features.",
       "highlights": [
-        "Improved website performance by optimizing code"
+        "Improved the performance of all the company's back-end applications.",
+        "Automated many manual processes and tests with scripts and best practices"
       ],
       "responsibilities": [
         "Design, implement, and test RESTful APIs using Java and Spring Boot.",
@@ -95,10 +95,7 @@
       "area": "Software Engineering",
       "studyType": "Bachelor Degree",
       "startDate": "2023-01-01",
-      "endDate": null,
-      "score": null,
-      "courses": [
-      ]
+      "endDate": null
     },
     {
       "institution": "UFMG",
@@ -106,10 +103,7 @@
       "area": "Systems Development",
       "studyType": "Associate Degree",
       "startDate": "2019-01-01",
-      "endDate": "2021-12-01",
-      "score": null,
-      "courses": [
-      ]
+      "endDate": "2021-12-01"
     }
   ],
   "certificates": [
@@ -120,328 +114,15 @@
       "url": "https://cursos.datasecurity.com.br/desenvolvimento-seguro/"
     }
   ],
-  "skills": [
-    {
-      "name": "Java",
-      "icon": "ri:java-line",
-      "level": "Expert",
-      "keywords": [
-        "Java 7",
-        "Java 8",
-        "Java 11",
-        "Java 17",
-        "Java 21",
-        "Java EE",
-        "GraalVM",
-        "Multithreading",
-        "Concurrency",
-        "Testing (JUnit/Mockito)"
-      ]
-    },
-    {
-      "name": "Spring",
-      "icon": "simple-icons:spring",
-      "level": "Expert",
-      "keywords": [
-        "Java Framework",
-        "Microservices",
-        "Event-driven Architecture",
-        "Spring Framework 6",
-        "Spring Boot",
-        "Spring MVC",
-        "Spring Security",
-        "Spring Authorization Server",
-        "Spring AMQP",
-        "Spring LDAP",
-        "Spring Cache",
-        "Spring Data",
-        "Spring Cloud",
-        "Spring Cloud Data Flow",
-        "Spring Cloud Stream",
-        "Spring Batch"
-      ]
-    },
-    {
-      "name": "Node",
-      "icon": "ri:nodejs-line",
-      "level": "Expert",
-      "keywords": [
-        "JavaScript Runtime",
-        "Express.js",
-        "API Development",
-        "Middleware",
-        "Event-Driven Architecture"
-      ]
-    },
-    {
-      "name": "Python",
-      "icon": "simple-icons:python",
-      "level": "Expert",
-      "keywords": [
-        "Data Science",
-        "Machine Learning",
-        "Web Development",
-        "Scripting"
-      ]
-    },
-    {
-      "name": "Go",
-      "icon": "simple-icons:go",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Concurrency",
-        "Performance",
-        "Microservices"
-      ]
-    },
-    {
-      "name": "Apache Kafka",
-      "icon": "simple-icons:apachekafka",
-      "level": "Intermediate",
-      "keywords": [
-        "Distributed Systems",
-        "Event-Driven Architecture",
-        "Message Queues",
-        "Data Streaming",
-        "Fault Tolerance"
-      ]
-    },
-    {
-      "name": "AWS",
-      "icon": "mdi:aws",
-      "level": "Intermediate",
-      "keywords": [
-        "Cloud Computing",
-        "Serverless Architecture",
-        "S3",
-        "EC2",
-        "Lambda",
-        "API Gateway",
-        "RDS",
-        "DynamoDB",
-        "IAM",
-        "VPC",
-        "Route 53",
-        "CloudFront",
-        "Elastic Beanstalk",
-        "Elastic Container Service",
-        "Elastic Kubernetes Service",
-        "Elastic Load Balancing",
-        "Auto Scaling",
-        "CloudWatch",
-        "CloudFormation",
-        "CodePipeline",
-        "CodeBuild",
-        "CodeDeploy",
-        "SNS",
-        "SQS",
-        "SES",
-        "KMS",
-        "Secrets Manager",
-        "Systems Manager",
-        "Glacier",
-        "Athena",
-        "Redshift",
-        "Elasticsearch Service",
-        "Kinesis",
-        "Step Functions",
-        "AppSync",
-        "Cognito",
-        "API Gateway WebSockets"
-      ]
-    },
-    {
-      "name": "OracleSQL",
-      "icon": "simple-icons:oracle",
-      "level": "Intermediate",
-      "keywords": [
-        "Relational Databases",
-        "SQL Queries",
-        "Data Modeling",
-        "Normalization",
-        "Performance Tuning"
-      ]
-    },
-    {
-      "name": "C++",
-      "icon": "mdi:language-cpp",
-      "level": "Expert",
-      "keywords": [
-        "Embedded Systems",
-        "Memory Management",
-        "Concurrency"
-      ]
-    },
-    {
-      "name": "PHP",
-      "icon": "simple-icons:php",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Laravel",
-        "Symfony",
-        "CodeIgniter",
-        "WordPress"
-      ]
-    },
-    {
-      "name": "TypeScript",
-      "icon": "mdi:language-typescript",
-      "level": "Expert",
-      "keywords": [
-        "Static Typing",
-        "Type Safety",
-        "Advanced Types",
-        "Tooling (tslint)"
-      ]
-    },
-    {
-      "name": "Angular",
-      "icon": "mdi:angular",
-      "level": "Intermediate",
-      "keywords": [
-        "Single Page Applications",
-        "Dependency Injection",
-        "Reactive Programming",
-        "Component-Based Architecture",
-        "Routing"
-      ]
-    },
-    {
-      "name": "Git",
-      "icon": "mdi:git",
-      "level": "Intermediate",
-      "keywords": [
-        "Version Control",
-        "Collaboration",
-        "Branching Strategies",
-        "Merging",
-        "Pull Requests"
-      ]
-    },
-    {
-      "name": "MySQL",
-      "icon": "tabler:brand-mysql",
-      "level": "Intermediate",
-      "keywords": [
-        "Relational Databases",
-        "SQL Queries",
-        "Data Modeling",
-        "Normalization",
-        "Performance Tuning"
-      ]
-    },
-    {
-      "name": "Docker",
-      "icon": "simple-icons:docker",
-      "level": "Intermediate",
-      "keywords": [
-        "Containerization",
-        "Docker Compose",
-        "Docker Swarm",
-        "Docker Hub",
-        "Docker Registry",
-        "Dockerfile",
-        "Docker CLI"
-      ]
-    },
-    {
-      "name": "Kubernetes",
-      "icon": "simple-icons:kubernetes",
-      "level": "Intermediate",
-      "keywords": [
-        "Container Orchestration",
-        "Microservices",
-        "Docker",
-        "Kubectl",
-        "Helm",
-        "Kubernetes Dashboard",
-        "Kubernetes API"
-      ]
-    },
-    {
-      "name": "HTML",
-      "icon": "mdi:language-html5",
-      "level": "Expert",
-      "keywords": [
-        "Web Development",
-        "SEO Best Practices",
-        "Semantic HTML",
-        "Accessibility",
-        "Forms"
-      ]
-    },
-    {
-      "name": "CSS",
-      "icon": "mdi:language-css3",
-      "level": "Intermediate",
-      "keywords": [
-        "Responsive Design",
-        "Accessibility",
-        "Flexbox",
-        "Grid Layout",
-        "Preprocessors (Sass/LESS)"
-      ]
-    },
-    {
-      "name": "JavaScript",
-      "icon": "mdi:language-javascript",
-      "level": "Expert",
-      "keywords": [
-        "Asynchronous Programming",
-        "ES6+ Features",
-        "DOM Manipulation",
-        "Testing (Jest)"
-      ]
-    },
-    {
-      "name": "Tailwind",
-      "icon": "mdi:tailwind",
-      "level": "Expert",
-      "keywords": [
-        "Utility-First CSS",
-        "Responsive Design",
-        "Custom Themes",
-        "Component Libraries",
-        "Rapid Prototyping"
-      ]
-    },
-    {
-      "name": "Bootstrap",
-      "icon": "mdi:bootstrap",
-      "level": "Expert",
-      "keywords": [
-        "CSS Framework",
-        "Responsive Design",
-        "UI Components",
-        "Grid System",
-        "Custom Themes"
-      ]
-    }
-  ],
+
   "languages": [
     {
       "language": "English",
-      "fluency": "Intermediate"
+      "fluency": "Advanced"
     },
     {
       "language": "Portuguese",
-      "fluency": "Intermediate"
-    },
-    {
-      "language": "Spanish",
-      "fluency": "Beginner"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Technology",
-      "keywords": [
-        "AI",
-        "Data",
-        "Blockchain"
-      ]
+      "fluency": "Native"
     }
   ],
   "references": [

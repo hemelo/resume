@@ -1,19 +1,33 @@
 ---
-import { basics } from "@cv";
+import type { CV, Shared } from "@types";
 import SpeedInsights from "@vercel/speed-insights/astro";
 import Analytics from '@vercel/analytics/astro';
 
+import ThemeSwitch from "@/components/ThemeSwitch.astro";
+import Hero from "@/components/sections/Hero.astro";
+import About from "@/components/sections/About.astro";
+import Tail from "@/components/sections/Tail.astro";
+import Skills from "@/components/sections/Skills.astro";
+import Experience from "@/components/sections/Experience.astro";
+import Projects from "@/components/sections/Projects.astro";
+import Education from "@/components/sections/Education.astro";
+import KeyboardManager from "@/components/KeyboardManager.astro";
+
 interface Props {
+  cv: CV;
+  shared: Shared;
   title: string;
 }
 
-const { title } = Astro.props;
+const { cv, shared, title } = Astro.props;
 
-const { image, summary, url, theme } = basics;
+const { image, summary, url } = cv.basics;
+
+const currentLocale = Astro.currentLocale;
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang={currentLocale}>
   <head>
     <meta charset="UTF-8" />
     <title>{title}</title>
@@ -45,14 +59,31 @@ const { image, summary, url, theme } = basics;
 
     <link rel="stylesheet" href="/themes/themes.css" />
   </head>
-  <body data-theme={theme} class="relative bg-skin-fill">
+  <body data-theme={shared.theme} class="relative bg-skin-fill">
     <div class="absolute top-0 -z-10 h-full w-full print:hidden">
       <div
         class="absolute bottom-auto left-[20%] right-auto top-0 h-[200px] w-[200px] -translate-x-[30%] translate-y-[20%] rounded-full bg-skin-hue/10 blur-[80px] invert-0 dark:bg-white/5"
       >
       </div>
     </div>
-    <slot />
+
+    <main class="relative grid max-w-7xl gap-12 p-8 max-sm:py-16 md:grid-cols-6 md:p-16 xl:gap-24 print:max-w-none print:grid-cols-1 print:gap-6">
+      <div class="space-y-6 md:col-span-2 print:col-span-1 print:grid print:grid-cols-2 print:gap-5 print:space-y-0">
+        <Hero basics={cv.basics} />
+        <About basics={cv.basics} title={currentLocale == 'pt-br' ? 'Sobre' : 'About'} />
+        <ThemeSwitch />
+      </div>
+      <div class="space-y-12 md:col-span-4 print:col-span-1 print:grid print:grid-cols-4 print:gap-2 print:space-y-0">
+        <Experience work={cv.work} title={currentLocale == 'pt-br' ? 'Experiência' : 'Experience'} className="print:col-span-3" />
+        <Projects projects={cv.projects} title={currentLocale == 'pt-br' ? 'Projetos' : 'Projects'} className="print:hidden" />
+        <Skills skills={shared.skills} title={currentLocale == 'pt-br' ? 'Habilidades Técnicas' : 'Technical Skills'} className="print:col-span-3 print:col-start-2" />
+        <Education education={cv.education} title={currentLocale == 'pt-br' ? 'Educação' : 'Education'} certificates={cv.certificates} className="order-first" />
+      </div>
+      <Tail />
+    </main>
+
+    <KeyboardManager basics={cv.basics} />
+
     <style is:global>
       body,
       figure {
@@ -130,6 +161,15 @@ const { image, summary, url, theme } = basics;
         article {
           break-inside: avoid;
         }
+      }
+      @page {
+          size: auto;
+          margin: 0mm;
+      }
+
+      main {
+          margin: auto;
+          width: 100%;
       }
     </style>
   </body>

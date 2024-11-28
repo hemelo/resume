@@ -1,0 +1,146 @@
+{
+  "basics": {
+    "name": "Henrique Melo",
+    "label": "Desenvolvedor Fullstack Pleno",
+    "image": "/me_avatar.jpg",
+    "email": "hemelo@pm.me",
+    "phone": "+5531993130528",
+    "url": "https://johndoe.dev",
+    "summary": "Desenvolvedor de Software com 3 anos de experiência demonstrada em alinhar soluções de software com processos críticos de negócios. Altamente experiente em todas as fases do ciclo de vida de desenvolvimento de software. Conhecimento extenso em principais linguagens de programação, especialmente Java, Python, PHP e SQL. Experiência prática com ambiente e ferramentas Java.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Belo Horizonte",
+      "countryCode": "BR",
+      "region": "Brasil"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "henriquefcmelo",
+        "url": "https://linkedin.com/in/henriquefcmelo"
+      },
+      {
+        "network": "GitHub",
+        "username": "hemelo",
+        "url": "https://github.com/hemelo"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Alterosa MK",
+      "position": "Desenvolvedor Fullstack Pleno",
+      "location_type": "Presencial",
+      "location": "Contagem, Brasil",
+      "url": null,
+      "startDate": "2022-06-01",
+      "endDate": null,
+      "summary": "Desenvolveu e manteve APIs e microsserviços utilizando Java e Spring Boot. Participou em todo o ciclo de vida do desenvolvimento de software, desde o conceito e a conceção até aos testes. Colaborou com equipes multifuncionais para definir, planejar e entregar novas funcionalidades.",
+      "highlights": [
+        "Melhorou o desempenho de todas as aplicações back-end da empresa.",
+        "Automatizou muitos processos e testes manuais com scripts e boas práticas"
+      ],
+      "responsibilities": [
+        "Planejar, implementar e testar APIs RESTful em Java e Spring Boot.",
+        "Colaborar com equipes multifuncionais para definir, conceber e enviar novas funcionalidades.",
+        "Participar em revisões de código e contribuir para melhorar as normas de codificação na equipa.",
+        "Reduzir o tempo de carregamento das aplicações, optimizando a indexação da base de dados e as operações assíncronas.",
+        "Optimize o desempenho das APIs com melhores práticas de código e estratégias de armazenamento em cache."
+      ],
+      "achievements": [
+        "Escreveu scripts automatizados para identificar maus fluxos de trabalho.",
+        "Transformou fluxos com baixo desempenho em fluxos de alto desempenho, reduzindo o tempo de resposta em 50%.",
+        "Desenvolveu 300 testes com JUnit e Mockito para garantir a qualidade das aplicações.",
+        "Implementou pipelines de CI/CD que reduziram os tempos de deployment em 50%.",
+        "Criou 15 microsserviços para melhorar a escalabilidade das aplicações utilizando as melhores práticas."
+      ],
+      "skills": [
+        "Spring (MVC, Boot, Cloud, Batch, Security, Data, JDBC, Cache, Authorization Server)",
+        "Java EE",
+        "Java 8, 11, 17, 21",
+        "Primefaces",
+        "QueryDSL",
+        "Hibernate",
+        "Webservices (SOAP e REST)",
+        "Java FX",
+        "JUnit 5",
+        "Mockito",
+        "C++",
+        "Python",
+        "Docker",
+        "Jenkins",
+        "MySQL",
+        "Angular"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Universidade Federal de Minas Gerais",
+      "position": "Voluntário",
+      "url": "https://ufmg.br/",
+      "startDate": "2021-01-01",
+      "endDate": "2022-01-01",
+      "summary": "Ajudei a desenvolver um sistema de gerenciamento de documentos e arquivos histórios para comunidades indígenas",
+      "highlights": [
+        "Reconhecimento e mérito por contribuir com a comunidade e uma causa nobre"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "FIAP",
+      "url": "https://www.fiap.com.br/institucional/",
+      "area": "Engenharia de Software",
+      "studyType": "Bacharelado",
+      "startDate": "2023-01-01",
+      "endDate": null
+    },
+    {
+      "institution": "UFMG",
+      "url": "https://ufmg.br/international-visitors",
+      "area": "Desenvolvimento de Sistemas",
+      "studyType": "Técnico",
+      "startDate": "2019-01-01",
+      "endDate": "2021-12-01"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Desenvolvimento Seguro",
+      "date": "2024-03-01",
+      "issuer": "Data Security",
+      "url": "https://cursos.datasecurity.com.br/desenvolvimento-seguro/"
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Smith",
+      "reference": "Reference…"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Avançado"
+    },
+    {
+      "language": "Portuguese",
+      "fluency": "Nativo"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Eco System",
+      "isActive": true,
+      "description": "Aplicação de linha de comando para gerenciar combinações entre comunidades e fornecedores de energia",
+      "highlights": [
+        "Desenvolvido com Java, Oracle DB, JLine",
+        "CLI interativa para gerenciar combinações entre comunidades e fornecedores de energia"
+      ],
+      "url": "https://hemelo.github.io/fiap-global-solutions-2-2024/",
+      "github": "https://github.com/hemelo/fiap-global-solutions-2-2024"
+    }
+  ]
+}

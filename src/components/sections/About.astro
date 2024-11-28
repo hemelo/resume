@@ -1,11 +1,17 @@
 ---
+import type { CV } from "@types";
 import Section from "../Section.astro";
 
-import { basics } from "@cv";
+interface Props extends Pick<CV, "basics"> {
+	className?: string;
+	title: string;
+}
+
+const { basics, title } = Astro.props;
 const { summary } = basics;
 ---
 
-<Section title="About">
+<Section title={title}>
 	<p>
 		{summary}
 	</p>

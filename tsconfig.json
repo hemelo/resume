@@ -3,8 +3,17 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@cv": [
-        "./cv.json"
+      "@types": [
+        "src/types/cv"
+      ],
+      "@cv-en": [
+        "cv.json"
+      ],
+      "@shared-cv": [
+        "shared.json"
+      ],
+      "@cv-br": [
+        "cv.br.json"
       ],
       "@/*": [
         "src/*"

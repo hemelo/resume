@@ -1,11 +1,18 @@
 ---
 import Section from "../Section.astro";
+import { type CV } from "@types";
 
-import { education } from "@cv";
-import { certificates } from "@cv";
+interface Props extends Pick<CV, "education" | "certificates"> {
+	className?: string;
+	title: string;
+}
+
+const { education, certificates, title } = Astro.props
+
+const currentLocale = Astro.currentLocale;
 ---
 
-<Section className={Astro.props.className} title="Education">
+<Section className={Astro.props.className} title={title}>
 	<ul class="space-y-4 py-3 print:space-y-0">
 		{
 			education.map(({ institution, studyType, startDate, endDate, area, url }) => {
@@ -38,7 +45,7 @@ import { certificates } from "@cv";
 	{
 		certificates.length > 0 && (
 			<>
-				<h4>Certificates</h4>
+				<h4>{currentLocale == 'pt-br' ? 'Certificados' : 'Certificates'}</h4>
 				<ul class="space-y-4 py-3 print:space-y-0">
 					{certificates.map(({ name, date, issuer, url }) => {
 						const certificateYear = new Date(date).getFullYear();
