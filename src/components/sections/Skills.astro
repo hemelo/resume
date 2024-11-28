@@ -14,7 +14,7 @@ const { skills, title } = Astro.props;
 ---
 
 <Section className={Astro.props.className} title={title}>
-	<ul class="[&>li>svg]:text-skin-hue inline-flex flex-wrap gap-6 [&>li>svg]:size-5 [&>li]:text-sm print:gap-2 print:py-2">
+	<ul class="[&>li>svg]:text-skin-hue inline-flex flex-wrap gap-6 [&>li>svg]:size-5 [&>li]:text-sm print:gap-1 print:py-2">
 		{
 			skills.map(({ name, icon }) => {
 			
